@@ -47,7 +47,7 @@
                                     <li>
                                         <div class="unit flex-row align-items-center unit-spacing-xs">
                                             <div class="unit-left"><span class="icon mdi mdi-phone text-middle"></span></div>
-                                            <div class="unit-body"><a href="tel:#">8(3473) 21-23-69,</a>
+                                            <div class="unit-body"><a href="tel:#">8-919-141-78-38,</a>
                                             </div>
                                         </div>
                                     </li>
@@ -60,7 +60,7 @@
                                     <li>
                                         <div class="unit flex-row align-items-center unit-spacing-xs">
                                             <div class="unit-left"><span class="icon mdi mdi-email-open text-middle"></span></div>
-                                            <div class="unit-body"><a href="mailto:#">info@csf-str.ru</a></div>
+                                            <div class="unit-body"><a href="mailto:#">csf-str@mail.ru</a></div>
                                         </div>
                                     </li>
                                 </ul>
@@ -80,7 +80,8 @@
                         <!--Navbar Brand-->
                         <div class="rd-navbar-brand"><a class="d-inline-block" href="{{ url('/') }}">
                                 <div class="unit align-items-sm-center unit-xl flex-column flex-xxl-row unit-spacing-custom">
-                                    <div class="unit-left"><img width='170' height='172' src='images/logo-170x172.png' alt=''/>
+                                    <div class="unit-left">
+                                       {{-- <img width='170' height='172' src='images/logo-170x172.png' alt=''/>--}}
                                     </div>
                                     <div class="unit-body text-xxl-left">
                                         <div class="rd-navbar-brand-title text-center">Центр стратегического</div>
@@ -93,7 +94,7 @@
                                     <!--Navbar Brand Mobile-->
                                     <div class="rd-navbar-mobile-brand">
                                         <a href="{{ url('/') }}">
-                                            <img width='136' height='138' src='images/logo-170x172.png' alt=''/></a>
+                                           {{-- <img width='136' height='138' src='images/logo-170x172.png' alt=''/></a>--}}
                                     </div>
                                 </div>
                                 <!-- RD Navbar Nav-->
@@ -155,13 +156,16 @@
         <div class="container section-xs block-after-divider">
             <div class="row row-50 justify-content-xl-between justify-content-sm-center">
                 <div class="col-lg-3 col-xl-2 text-center">
-                    <!--Footer brand--><a class="d-inline-block" href="{{ url('/') }}"><img width='170' height='172' src='images/logo-170x172.png' alt=''/>
+                    <!--Footer brand-->
+                    <a class="d-inline-block" href="{{ url('/') }}">
+                        {{--<img width='170' height='172' src='images/logo-170x172.png' alt=''/>--}}
                         <div>
                             <h6 class="barnd-name font-weight-bold offset-top-25">Центр стратегического</h6>
                         </div>
                         <div>
                             <h6 class="barnd-name font-weight-bold">прогнозирования</h6>
-                        </div></a>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-sm-10 col-lg-5 col-xl-4 text-xl-left">
                     <h6 class="font-weight-bold">Контакты</h6>
@@ -172,21 +176,20 @@
                                 <div class="unit flex-row align-items-center unit-spacing-xs">
                                     <div class="unit-left"><span class="icon mdi mdi-phone text-middle icon-xs text-madison"></span></div>
                                     <div class="unit-body">
-                                        <a class="text-dark" href="tel:#">1-800-1234-567,</a>
-                                        <a class="d-block d-lg-inline-block text-dark" href="tel:#">8(3473) 21-23-69</a>
+                                        <a class="d-block d-lg-inline-block text-dark" href="tel:#">8-919-141-78-38</a>
                                     </div>
                                 </div>
                             </li>
                             <li class="offset-top-15">
                                 <div class="unit flex-row align-items-center unit-spacing-xs">
                                     <div class="unit-left"><span class="icon mdi mdi-map-marker text-middle icon-xs text-madison"></span></div>
-                                    <div class="unit-body text-left"><a class="text-dark" href="#">453100, РБ, г. Стерлитамак, пр. Ленина, 49</a></div>
+                                    <div class="unit-body text-left"><a class="text-dark" href="#">453120, Респ Башкортостан, г Стерлитамак, ул Худайбердина, д 91</a></div>
                                 </div>
                             </li>
                             <li class="offset-top-15">
                                 <div class="unit flex-row align-items-center unit-spacing-xs">
                                     <div class="unit-left"><span class="icon mdi mdi-email-open text-middle icon-xs text-madison"></span></div>
-                                    <div class="unit-body"><a href="mailto:#">info@csf-str.ru</a></div>
+                                    <div class="unit-body"><a href="mailto:#">csf-str@mail.ru</a></div>
                                 </div>
                             </li>
                         </ul>

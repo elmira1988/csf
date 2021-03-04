@@ -10,7 +10,7 @@
                     <i class="fa fa-envelope-o"></i>
                     <div class="contact-text">
                         <h5>E-MAIL</h5>
-                        <span>info@csf-str.ru</span>
+                        <span>csf-str@mail.ru</span>
                         <span> &nbsp; </span>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                     <i class="fa fa-phone"></i>
                     <div class="contact-text">
                         <h5>ТЕЛЕФОН</h5>
-                        <span> 8(3473) 21-23-69 </span>
+                        <span> 8-919-141-78-38 </span>
                         <span> &nbsp; </span>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                     <i class="fa fa-map-o"></i>
                     <div class="contact-text">
                         <h5>АДРЕС</h5>
-                        <span>453100, РБ, г. Стерлитамак, </span>
-                        <span>пр. Ленина, 49 </span>
+                        <span>453120, Респ. Башкортостан, </span>
+                        <span>г. Стерлитамак, пр. Ленина, 49 </span>
                     </div>
                 </div>
             </div>
