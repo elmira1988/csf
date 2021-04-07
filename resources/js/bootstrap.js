@@ -12,8 +12,6 @@ try {
     window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
-
-
     require('lightgallery');
     require('lightgallery/modules/lg-thumbnail');
     require('lightgallery/modules/lg-autoplay');

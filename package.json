@@ -19,7 +19,7 @@
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.32.5",
         "sass-loader": "^7.1.0",
-        "vue": "^2.5.17",
+        "vue": "^2.6.12",
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
@@ -29,8 +29,10 @@
         "lightgallery": "^1.10.0",
         "materialize-css": "^1.0.0",
         "mdi": "^1.4.57",
+        "pnotify": "^4.0.0",
         "slick-carousel": "^1.8.1",
         "stacktable.js": "^1.0.3",
-        "swiper": "^6.4.8"
+        "swiper": "^6.4.8",
+        "vue-inputmask": "^0.2.1"
     }
 }

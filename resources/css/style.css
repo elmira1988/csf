@@ -21207,3 +21207,18 @@ ul.docs a {
     clear: both;text-align:center;position: relative;
     z-index: 1;}
 html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+
+
+/* ALERT */
+
+
+    .alert-danger {
+        color: #fff;
+        background-color: #fc5047;
+    }
+    .ui-pnotify-title{
+        color: #fff!important;
+    }
+
+
+/* ALERT END */

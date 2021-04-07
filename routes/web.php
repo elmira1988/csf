@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/information', function () {
-    return view('info', ['title' =>"Свеедния об образовательной организации", "link" => "Об организации"]);
+    return view('info', ['title' =>"Сведения об образовательной организации", "link" => "Об организации"]);
 });
 
 Route::get('/courses', function () {
@@ -39,6 +39,13 @@ Route::get('/news', function () {
     return view('news', ['title' =>"Новости", "link" => "Новости"]);
 });
 
+//Route::post("/payment/link",["uses" => "PaymentLink@getLink", "as" => "paymentLink"]);
+
+Route::get('/payment', function () {
+    return view('payment',['title' =>"Оплата услуг", "link" => "Оплата"]);
+})->name('paymentLink');
+
+
 Route::get('/news_post_page', function () {
     return view('news_post_page', ['title' =>"Как провести каникулы с пользой ", "link" => "Новости"]);
 });
@@ -46,3 +53,7 @@ Route::get('/news_post_page', function () {
 Route::get('/contacts', function () {
     return view('contact', ['title' =>"Контакты ", "link" => "Контакты"]);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

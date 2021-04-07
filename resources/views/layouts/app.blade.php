@@ -38,7 +38,7 @@
                     <div class="rd-navbar-panel">
                         <!-- RD Navbar Toggle-->
                         <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
-                        <h4 class="panel-title d-lg-none">{{ $link }}</h4>
+                        <h4 class="panel-title d-lg-none">@if(isset($link)) {{ $link }} @endif</h4>
                         <!-- RD Navbar Right Side Toggle-->
                         <button class="rd-navbar-top-panel-toggle d-lg-none" data-rd-navbar-toggle=".rd-navbar-top-panel"><span></span></button>
                         <div class="rd-navbar-top-panel">
@@ -233,7 +233,8 @@
 <div class="snackbars" id="form-output-global"></div>
 <!-- Java script-->
 <script src="{{ mix('/js/app.js') }}"></script>
-<script src="js/core.min.js"></script>
-<script src="js/script.js"></script>
+{{--<script src="{{ mix('/js/script.js') }}"></script>--}}
+<script src="{{ asset('js/core.min.js') }}"></script>
+<script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
