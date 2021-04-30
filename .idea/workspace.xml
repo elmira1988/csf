@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5300b1b9-183e-4f76-ba3d-77c5e2dcb2c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/PaymentComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/payment.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csf.arimle.ru.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csf.arimle.ru.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/vendor/font-awesome/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/vendor/font-awesome/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/vendor/lightgallery/src/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/vendor/lightgallery/src/lg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/vendor/mdi/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/vendor/mdi/materialdesignicons-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/vendor/slick-carousel/slick/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/vendor/slick-carousel/slick/slick.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/info.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/info.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/info_basic.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/info_basic.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/info_docs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/info_docs.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +130,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mc.noriss.ru" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -214,7 +188,13 @@
       <workItem from="1615371165321" duration="639000" />
       <workItem from="1615545771721" duration="639000" />
       <workItem from="1616051371364" duration="21000" />
-      <workItem from="1617773652393" duration="8276000" />
+      <workItem from="1617773652393" duration="11293000" />
+      <workItem from="1617945679688" duration="55000" />
+      <workItem from="1619083883560" duration="2621000" />
+      <workItem from="1619088876656" duration="8000" />
+      <workItem from="1619089423667" duration="668000" />
+      <workItem from="1619495083170" duration="7973000" />
+      <workItem from="1619581740844" duration="139000" />
     </task>
     <servers />
   </component>

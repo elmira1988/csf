@@ -6,14 +6,17 @@
     <p>  В соответствии с Постановлением Правительства Российской Федерации от 10 июля 2013 г. № 582 «Об утверждении Правил размещения на официальном сайте образовательной организации в информационно-телекоммуникационной сети «Интернет» и обновления информации об образовательной организации», Приказом Федеральной службы по надзору в сфере образования и науки от 29 мая 2014 г. № 785 «Об утверждении требований к структуре официального сайта образовательной организации в информационно-телекоммуникационной сети «Интернет» и формату представления на нем информации» размещены следующие документы:</p>
 </div>
 
+
 <div class="offset-top-30">
     <ul class="list-unstyled docs mt-3">
-        <li class="d-flex">
-            <i class="fa fa-file-pdf-o"></i>
-            <div class="d-inline-block text-black inset-left-10">Устав (pdf,23кб)<br>
-                <a href="#">скачать</a>
-            </div>
-        </li>
+        @foreach(\App\Doc::get() as $doc)
+            <li class="d-flex">
+                <i class="fa fa-file-{{ $doc->info['icon'] }}-o"></i>
+                <div class="d-inline-block text-black inset-left-10">{{ $doc->name }} ({{ $doc->info['type'] }}, {{ $doc->info['size'] }}кб)<br>
+                    <a href="{{ asset('storage/'.config('settings.docFolder').'/'.$doc->url) }}">скачать</a>
+                </div>
+            </li>
+        @endforeach
 
         <li class="d-flex">
             <i class="fa fa-file-pdf-o"></i>

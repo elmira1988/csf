@@ -47,20 +47,20 @@
                                     <li>
                                         <div class="unit flex-row align-items-center unit-spacing-xs">
                                             <div class="unit-left"><span class="icon mdi mdi-phone text-middle"></span></div>
-                                            <div class="unit-body"><a href="tel:#">8-919-141-78-38,</a>
+                                            <div class="unit-body"><a href="tel:#">{{ \App\Address::first()->phone }}</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="unit flex-row align-items-center unit-spacing-xs">
                                             <div class="unit-left"><span class="icon mdi mdi-map-marker text-middle"></span></div>
-                                            <div class="unit-body"><a href="#">453100, РБ, г. Стерлитамак, пр. Ленина, 49</a></div>
+                                            <div class="unit-body"><a href="#">{{ \App\Address::first()->index }}, РБ, {{ \App\Address::first()->city }}, {{ \App\Address::first()->street }}, {{ \App\Address::first()->house }}</a></div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="unit flex-row align-items-center unit-spacing-xs">
                                             <div class="unit-left"><span class="icon mdi mdi-email-open text-middle"></span></div>
-                                            <div class="unit-body"><a href="mailto:#">csf-str@mail.ru</a></div>
+                                            <div class="unit-body"><a href="mailto:#">{{ \App\Address::first()->email }}</a></div>
                                         </div>
                                     </li>
                                 </ul>
@@ -176,20 +176,20 @@
                                 <div class="unit flex-row align-items-center unit-spacing-xs">
                                     <div class="unit-left"><span class="icon mdi mdi-phone text-middle icon-xs text-madison"></span></div>
                                     <div class="unit-body">
-                                        <a class="d-block d-lg-inline-block text-dark" href="tel:#">8-919-141-78-38</a>
+                                        <a class="d-block d-lg-inline-block text-dark" href="tel:#">{{ \App\Address::first()->phone }}</a>
                                     </div>
                                 </div>
                             </li>
                             <li class="offset-top-15">
                                 <div class="unit flex-row align-items-center unit-spacing-xs">
                                     <div class="unit-left"><span class="icon mdi mdi-map-marker text-middle icon-xs text-madison"></span></div>
-                                    <div class="unit-body text-left"><a class="text-dark" href="#">453120, Респ Башкортостан, г Стерлитамак, ул Худайбердина, д 91</a></div>
+                                    <div class="unit-body text-left"><a class="text-dark" href="#">{{ \App\Address::first()->index }}, РБ, {{ \App\Address::first()->city }}, {{ \App\Address::first()->street }}, {{ \App\Address::first()->house }}</a></div>
                                 </div>
                             </li>
                             <li class="offset-top-15">
                                 <div class="unit flex-row align-items-center unit-spacing-xs">
                                     <div class="unit-left"><span class="icon mdi mdi-email-open text-middle icon-xs text-madison"></span></div>
-                                    <div class="unit-body"><a href="mailto:#">csf-str@mail.ru</a></div>
+                                    <div class="unit-body"><a href="mailto:#">{{ \App\Address::first()->phone }}</a></div>
                                 </div>
                             </li>
                         </ul>
