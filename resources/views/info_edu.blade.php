@@ -2,16 +2,58 @@
 <div class="hr divider bg-madison divider-md-0"></div>
 
 <div class="offset-lg-top-30">
-    <p>Полностью копирую текст с сайта ВГАПС. Наверное, идентичное что-то должно быть здесь.</p>
-    <p >В соответствии с Лицензией на осуществление образовательной деятельности в АНО ДПО «ВГАППССС» реализуются<strong>программыдополнительного образования (подвиды: дополнительное профессиональное образование, дополнительное образование детей и взрослых), программы профессионального обучения</strong>(далее – образовательные программы).</p>
-    <p >Обучение по образовательным программам осуществляется<strong>на русском языке</strong>.</p>
-    <p ><strong>Форма обучения–заочная</strong>.</p>
-    <p >Образовательные программы реализуются<span><strong>с применением электронного обучения (ЭО), дистанционных образовательных технологий (ДОТ)</strong>.</span></p>
     <p >Перечень образовательных программ. Срок обучения. Документы, регламентирующие образовательный процесс:</p>
     <p ></p>
 </div>
 
 <div class="offset-top-30">
+
+    <table class="table table-custom striped-table stacktable large-only" data-responsive="true">
+        <tbody><tr>
+            <th>Наименование образовательной программы</th>
+            <th>Срок обучения</th>
+            <th>Программа</th>
+        </tr>
+        <tr>
+            <td>Общеразвивающая программа "Английский язык"</td>
+            <td>9 мес.</td>
+            <td>
+                <div class="d-flex save-link">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <div class="d-inline-block">
+                        <a href="{{ asset('/files/English.pdf') }}">скачать</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Программа повышения квалификации «Информационно-коммуникационные технологии в  профессиональной деятельности педагога в условиях реализации ФГОС»</td>
+            <td>3 нед.</td>
+            <td>
+                <div class="d-flex save-link">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <div class="d-inline-block">
+                        <a href="{{ asset('/files/IT.pdf') }}">скачать</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Программа профессионального обучения "Парикмахер"</td>
+            <td>5 мес</td>
+            <td>
+                <div class="d-flex save-link">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <div class="d-inline-block">
+                        <a href="{{ asset('/files/Hair.pdf') }}">скачать</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        </tbody></table>
+
+    <!--
     <table class="table table-custom striped-table stacktable large-only" data-responsive="true">
         <tbody><tr>
             <th>Наименование образовательной программы</th>
@@ -257,4 +299,5 @@
         </tr>
 
         </tbody></table>
+        -->
 </div>
